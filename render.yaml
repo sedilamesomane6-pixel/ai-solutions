@@ -9,7 +9,7 @@ services:
       - key: PYTHON_VERSION
         value: 3.13.13
 
-  - type: cronjob
+  - type: cron
     name: sales-analysis-job
     schedule: "0 0 * * *"
     env: python
