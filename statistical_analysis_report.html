@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Statistical Analysis Report</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; background-color: #F5F0E8; color: #4A2F1A; }
+        h1 { color: #8B4513; border-bottom: 2px solid #8B4513; padding-bottom: 10px; }
+        h2 { color: #D2691E; margin-top: 30px; }
+        .summary-box { background-color: white; padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        .stat { font-size: 24px; font-weight: bold; color: #8B4513; }
+        .insight { background-color: #E8DCCA; padding: 15px; border-left: 4px solid #8B4513; margin: 15px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #8B4513; color: white; padding: 10px; text-align: left; }
+        td { padding: 8px; border-bottom: 1px solid #DDD; }
+        .chart-link { display: inline-block; background-color: #8B4513; color: white; padding: 10px 20px; margin: 5px; text-decoration: none; border-radius: 5px; }
+        .chart-link:hover { background-color: #D2691E; }
+    </style>
+</head>
+<body>
+    <h1>AI-Solutions Statistical Analysis Report</h1>
+    <p><strong>Analysis Date:</strong> 2026-05-02 05:14:51</p>
+    <p><strong>Records Analyzed:</strong> 922,284</p>
+    
+    <div class="summary-box">
+        <h2>Key Statistics Summary</h2>
+        <table>
+            <tr><th>Metric</th><th>Value</th><th>Insight</th></tr>
+            <tr><td>Average Lead Score</td><td class="stat">48.5</td><td>Out of 100</td></tr>
+            <tr><td>Average Satisfaction</td><td class="stat">3.00/5</td><td>Needs Improvement</td></tr>
+            <tr><td>Conversion Rate</td><td class="stat">36.3%</td><td>Percentage of visitors who converted</td></tr>
+            <tr><td>AI Assistant Usage</td><td class="stat">40.0%</td><td>Percentage using AI assistant</td></tr>
+            <tr><td>Avg Response Time</td><td class="stat">1033 ms</td><td>Slow</td></tr>
+        </table>
+    </div>
+    
+    <div class="insight">
+        <h3>Key Insights</h3>
+        <ul>
+            <li><strong>Lead Score Distribution:</strong> The mean lead score is 48.5 with a standard deviation of 30.0.</li>
+            <li><strong>Satisfaction Correlation:</strong> Positive correlation (0.001) between lead score and satisfaction.</li>
+            <li><strong>Response Time Impact:</strong> Correlation of 0.001 with satisfaction.</li>
+            <li><strong>Conversion Performance:</strong> Best performing region: Central Africa with 36.6% conversion rate.</li>
+            <li><strong>Top Country:</strong>   has the highest average lead score at 48.7.</li>
+        </ul>
+    </div>
+    
+    <div class="summary-box">
+        <h2>Generated Charts & Visualizations</h2>
+        <p>Click any link below to view the interactive visualization:</p>
+        <div>
+            <a href="table_1_central_tendency.html" class="chart-link" target="_blank">Central Tendency Table</a>
+            <a href="table_2_dispersion.html" class="chart-link" target="_blank">Dispersion Table</a>
+            <a href="boxplots_combined.html" class="chart-link" target="_blank">Box Plots (Combined)</a>
+            <a href="correlation_matrix.html" class="chart-link" target="_blank">Correlation Matrix</a>
+            <a href="histogram_lead_score.html" class="chart-link" target="_blank">Lead Score Histogram</a>
+            <a href="histogram_satisfaction.html" class="chart-link" target="_blank">Satisfaction Histogram</a>
+            <a href="histogram_response_time.html" class="chart-link" target="_blank">Response Time Histogram</a>
+            <a href="scatter_response_lead.html" class="chart-link" target="_blank">Response vs Lead Scatter</a>
+            <a href="scatter_lead_satisfaction.html" class="chart-link" target="_blank">Lead vs Satisfaction Scatter</a>
+            <a href="bar_country_lead.html" class="chart-link" target="_blank">Lead Score by Country</a>
+            <a href="bar_region_conversion.html" class="chart-link" target="_blank">Conversion by Region</a>
+            <a href="pie_ai_usage.html" class="chart-link" target="_blank">AI Usage Pie Chart</a>
+            <a href="timeseries_daily_scores.html" class="chart-link" target="_blank">Daily Trends Time Series</a>
+        </div>
+    </div>
+    
+    <div class="summary-box">
+        <h2>Recommendations</h2>
+        <ul>
+            <li><strong>Improve Response Time:</strong> Current average response time is 1033ms. Target under 1000ms for better user experience.</li>
+            <li><strong>Focus on Top Regions:</strong> Allocate marketing budget to Central Africa which shows highest conversion.</li>
+            <li><strong>AI Assistant Enhancement:</strong> Current AI usage is 40.0%. Promote AI features to increase adoption.</li>
+        </ul>
+    </div>
+    
+    <p style="text-align: center; margin-top: 50px; color: #8B4513;">
+        <strong>AI-Solutions Analytics Dashboard</strong><br>
+        Report Generated: 2026-05-02 05:14:51
+    </p>
+</body>
+</html>
